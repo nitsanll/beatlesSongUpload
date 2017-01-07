@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Lyrics = require('./lyrics');
 var async = require('async');
-var lyricsJson = require('./songsEmotions.json')
+var lyricsJson = require('./songEmotions.json')
 mongoose.Promise = global.Promise;
 var song;
 
